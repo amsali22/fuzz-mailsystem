@@ -30,14 +30,14 @@ Config.BoxLootTiers = {
     ['tier1'] = {
         chances = 75, -- The chances for this tier to be selected (out of 100)
         loottable = {
-            {item = 'junkmail',              min = 1,    max = 3},
+            {item = 'lockpick',              min = 1,    max = 3},
             -- Add more items to this tier as needed
         }
     },
     ['tier2'] = {
         chances = 25,
         loottable = {
-            {item = 'dirtybills',       min = 100,    max = 300},
+            {item = 'sandwich',       min = 100,    max = 300},
             -- Add more items to this tier as needed
         }
     },
@@ -65,7 +65,7 @@ Config.BoxLootTiers = {
     ['tier6'] = {
         chances = 1,
         loottable = {
-            { item = 'stolenpackage',      min = 1,    max = 1 },
+            { item = 'c4',      min = 1,    max = 1 },
             -- Add more items to this tier as needed
         }
     },
@@ -74,7 +74,7 @@ Config.BoxLootTiers = {
 --PACKAGE OPENING CONFIG
 Config.Rewards = { -- Potential Box Rewards
     {Name = "weapon_knife", Amount = 1},
-    {Name = "tunerlaptop", Amount = 1},
+    {Name = "laptop", Amount = 1},
 }
 Config.MaxRewards = 1 -- Max Rewards the player will receive upon opening the GiftBox
 
@@ -110,17 +110,17 @@ Config.PaymentLow = 200 -- Lowest amount paid per delivery
 
 Config.PaymentHigh = 350 -- Highest amount paid per delivery
 
-Config.BonusItem = 'mailmancredentials' --  Potential Item given at end of delivery
+Config.BonusItem = 'rolex' --  Potential Item given at end of delivery
 
 Config.BonusItemChance = 75 --Higher means less of a chance 
 
 Config.PMCoords = vector4(-255.55, -845.41, 31.3, 163.21) -- The Blip also uses these coords.
 
-Config.MailVehicle = "uspstrans" -- Vehicle used by mail office
+Config.MailVehicle = "speedo" -- Vehicle used by mail office
 
 Config.MailVehicleSpawn = vector4(-273.3, -829.87, 31.37, 340.59) -- Where vehicle spawns
 
-Config.FuelScript = 'ps-fuel' -- Fuel script
+Config.FuelScript = 'LegacyFuel' -- Fuel script
 
 Config.JobRoutes = { -- Random delivery houses.
     vector3(224.11, 513.52, 140.92),
